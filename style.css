@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+
+img{
+    height: 70px;
+}
+.headers{
+    background: black;
+    padding: 20px 10px;
+}
+.first-header a{
+    text-decoration: none;
+    color: white
+}
+.first-header a:hover{
+    color: yellow;
+}
+.body-part-1{
+    background: rgba(0, 0, 0, 0.179);
+    padding-bottom: 20px;
+}
+.body-part-1 h1{
+    font-size: 15px;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+.search{
+    padding: 6px 2px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.body-part-2{
+    background: white;
+    margin-top: 20px;
+}
+.use-and-manage h2{
+    font-weight: bold;
+}
+.use-and-manage p{
+    font-weight: bold;
+}
+.using-abstract{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
