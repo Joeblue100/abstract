@@ -5,8 +5,10 @@
     overflow-x: hidden;
 }
 .container{
-    height: 100vh;
+    width: 100vw;
     overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
 }
 
 img{
@@ -15,6 +17,7 @@ img{
 .headers{
     background: black;
     padding: 20px 10px;
+    font-size: 25px;
 }
 .first-header a{
     text-decoration: none;
@@ -28,7 +31,7 @@ img{
     padding-bottom: 20px;
 }
 .body-part-1 h1{
-    font-size: 15px;
+    font-size: 30px;
     padding: 20px 20px;
     font-weight: bold;
 }
@@ -36,19 +39,68 @@ img{
     padding: 6px 2px;
     margin-left: 20px;
     margin-bottom: 20px;
+    width: 80%;
 }
 .body-part-2{
     background: white;
     margin-top: 20px;
 }
-.use-and-manage h2{
-    font-weight: bold;
+.container h2{
+    font-size: 30px;
 }
-.use-and-manage p{
-    font-weight: bold;
+.container p{
+    font-size: 25px;
+    padding: 20px 20px;
 }
-.using-abstract{
+.sapa{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.sapa:hover{
+    text-decoration: underline;
+}
+.using-abstract,
+.manage-your-account,
+.manage-orgs,
+.manage-bills,
+.authen-and-support,
+.support{
+    padding-bottom: 30px;
+}
+.body-part-3{
+    background: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.body-part-3 a{
+    text-decoration: none;
+    color: white;
+}
+.body-part-3 a:hover{
+    text-decoration: underline;
+}
+.float-1{
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.abs a,
+.resources a{
+    display: block;
+    word-spacing: 3px;
+    padding: 2px 0;
+}
+.float-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.community a,
+.company a{
+    display: block;
+    word-spacing: 3px;
+    padding: 2px 0;
 }
